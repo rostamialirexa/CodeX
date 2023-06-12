@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
     // specific message div 
     const messageDiv = document.getElementById(uniqueId)
 
-    // messageDiv.innerHTML = "..."
+    // messageDiv.innerHTML = ".."
     loader(messageDiv)
 
     const response = await fetch('https://codex-zm1l.onrender.com', {
